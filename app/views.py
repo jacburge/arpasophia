@@ -9,10 +9,10 @@ def index():
 def about():
 	return render_template('about.html')
 
-@app.route('/schedule/')
+@app.route('/blog/')
 def schedule():
-	return render_template('schedule.html')
+	return render_template('blog.html')
 
-@app.route('/news/')
+@app.route('/contact/')
 def news():
-	return render_template('news.html')
+	return render_template('contact.html')
