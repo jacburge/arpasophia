@@ -9,7 +9,7 @@ def index():
 def about():
 	return render_template('about.html')
 
-@app.route('/blog/')
+@app.route('/repertoire/')
 def schedule():
 	return render_template('blog.html')
 

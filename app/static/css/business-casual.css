@@ -6,7 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+/*    background: url('../img/bg.jpg') no-repeat center center fixed;*/
+    background-color: #172C4D;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -36,6 +37,10 @@ hr {
     border-color: #999999;
 }
 
+.brand {
+    font-family: "Tangerine", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .brand,
 .address-bar {
     display: none;
@@ -45,6 +50,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+
 }
 
 .navbar-nav {
@@ -80,7 +86,7 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
+    background: #fffff0;
     background: rgba(255,255,255,0.9);
 }
 
@@ -103,7 +109,7 @@ hr {
 }
 
 footer {
-    background: #fff;
+    background: #fffff0;
     background: rgba(255,255,255,0.9);
 }
 
@@ -123,7 +129,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #fffff0;
     }
 
     .top-divider {
@@ -145,7 +151,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #fffff0;
     }
 
     .navbar {
@@ -162,7 +168,7 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
+        background: #fffff0;
         background: rgba(255,255,255,0.9);
     }
 
